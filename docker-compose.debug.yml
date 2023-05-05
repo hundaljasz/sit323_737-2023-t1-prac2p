@@ -1,25 +1,13 @@
 version: '3.4'
 
 services:
-  p1:
-    image: p1
+  new-ui:
+    image: new-ui
     build:
       context: .
       dockerfile: ./Dockerfile
     ports:
       - 8080:3000
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:3000/health"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-  p2:
-    image: p2
-    build:
-      context: .
-      dockerfile: ./Dockerfile
-    ports:
-      - 8081:3000
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:3000/health"]
       interval: 30s

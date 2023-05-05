@@ -17,7 +17,7 @@ spec:
         tier: frontend
     spec:
       containers:
-      - name: p1
-        image: jaskirat05/p1:latest
+      - name: new-ui
+        image: jaskirat05/new-ui:latest
         ports:
         - containerPort: 8080

@@ -1,0 +1,3 @@
+{"level":"info","message":"Parameters 25 and 5 received for addition","service":"calculate-service"}
+{"level":"info","message":"Parameters 25 and 5 received for division","service":"calculate-service"}
+{"level":"info","message":"Parameters 25 and 0 received for division","service":"calculate-service"}

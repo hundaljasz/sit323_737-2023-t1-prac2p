@@ -6,8 +6,8 @@ metadata:
     run: mypod
 spec:
   containers:
-  - image: jaskirat05/p1:latest
-    name: p1
+  - image: jaskirat05/new-ui:latest
+    name: new-ui
     imagePullPolicy: Never
     ports:
     - containerPort: 3001
