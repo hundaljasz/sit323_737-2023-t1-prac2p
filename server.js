@@ -14,6 +14,6 @@ app.post('/getResult',(req,res) => {
     res.send(operation);
 });
 
-var server = app.listen(8000,() => {
+var server = app.listen(3000,() => {
     console.log('server is listening on port', server.address().port);
 });
